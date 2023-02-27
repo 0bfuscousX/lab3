@@ -45,7 +45,7 @@
 	
 <!-- The iFrame -->	
   <iframe src="https://medal.tv/u/%25c3%2598bfuscousx" frameborder="2" width="650" height="450" style="center"></iframe>
-  <img id="myImg" src="https://imgur.com/KfZtDcP" 
+  <img id="myImg" src="https://i.imgur.com/KfZtDcP.jpg" 
        alt="ØbfuscousX" style="float:right;width:auto;height:450px;">
 
 <!-- The Modal -->
