@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class GuestModel extends Model
 {
-    protected $table = 'lvlim_myguests';
+    protected $table = 'guests';
 
     protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
 

@@ -12,7 +12,7 @@ class Guest extends BaseController
 
 		$data = [
             'guest'  => $model->getGuest(),
-            'title' => 'Guestbook',
+            'title' => 'Website Review',
         ];
 
         return view('templates/header', $data)
