@@ -336,7 +336,6 @@
                 echo "Error: " . $sql . "<br>" . $conn->error;
               }
             }
-            $conn->close();
             ?>
                 
                 <input type="submit" value="Send Request">
