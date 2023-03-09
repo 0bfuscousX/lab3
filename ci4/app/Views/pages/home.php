@@ -274,9 +274,8 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
+                
                 <?= session()->getFlashdata('error') ?>
-                <?= validation_list_errors() ?>
-
                 <form action="create" method="post">
                     <?= csrf_field() ?>
 
