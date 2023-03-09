@@ -328,7 +328,7 @@
               }
 
               $sql = "INSERT INTO lvlim_MyGuests (name, email, website, comment)
-              VALUES ('$comment')";
+              VALUES ('$name', '$email', '$website', $comment')";
 
               if ($conn->query($sql) === TRUE) {
                 echo "<br>New record created successfully.";
