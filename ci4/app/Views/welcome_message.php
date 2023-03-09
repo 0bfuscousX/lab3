@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>OKUR0BOXUNE</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">	
-
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
@@ -224,7 +222,7 @@
 
         <h1>Welcome to ObfuscousX' CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?>!</h1>
 
-        <h2><strong>Click on this photo to view website:</strong> <a class="header--logo" href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home"><img src="assets/img/0bfuscousXLogo.png" alt="ØB"></a></h2>
+        <h2><strong>Click on this photo to view website:</strong> <a class="logo" href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home"><img src="assets/img/0bfuscousXLogo.png" alt="ØB"></a></h2>
 
     </div>
 
