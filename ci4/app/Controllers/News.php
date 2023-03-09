@@ -20,7 +20,6 @@ class News extends BaseController
             . view('news/index')
             . view('templates/footer');
     }
-}
 
          public function view($slug = null)
     {
