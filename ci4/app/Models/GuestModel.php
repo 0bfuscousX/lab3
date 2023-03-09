@@ -8,7 +8,7 @@ class GuestModel extends Model
 {
     protected $table = 'lvlim_MyGuests';
 
-    protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
+    protected $allowedFields = ['name', 'email', 'website', 'comment',];
 
 	
 	 public function getGuest()
