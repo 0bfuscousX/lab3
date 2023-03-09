@@ -274,10 +274,6 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
-<<<<<<< HEAD
-                <input type="submit" value="Send Request">
-              </form>
-=======
 
                 <!--PHP-->
   	        <?php
@@ -303,7 +299,7 @@
             <h2>Leave your thoughts about my website? <PHP Form Validation></h2>
             <p><i> Please input your information for logging and documentation: <i></p>
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-              Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+              Comment:  <textarea name="comment " rows="5" cols="40"></textarea>
               <br><br>
               <br><br>
               <input type="submit" name="submit" value="Submit">  
@@ -311,7 +307,7 @@
 
             <?php
             echo "<h2>Your Input:</h2>";
-            echo $comment;
+            echo $comment ;
             ?>
             </div>	
 
@@ -332,7 +328,7 @@
               }
 
               $sql = "INSERT INTO lvlim_MyGuests (name, email, website, comment)
-              VALUES ('$comment')";
+              VALUES ('$name', '$email', '$website', $comment')";
 
               if ($conn->query($sql) === TRUE) {
                 echo "<br>New record created successfully.";
@@ -344,7 +340,6 @@
                 
                 <input type="submit" value="Send Request">
               </form> 
->>>>>>> 9b066902b0d2fc5137f28b04358baadbc4bffaf8
             </div>
           </li>
         </ul>
