@@ -14,7 +14,7 @@ class Pages extends BaseController
     public function view($page = 'home')
     {
         if (! is_file(APPPATH . 'Views/pages/' . $page . '.php')) {
-            // Damn, we don't have a page for that! Try again?
+            // Whoops, we don't have a page for that!
             throw new PageNotFoundException($page);
         }
 
