@@ -7,7 +7,11 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 9b066902b0d2fc5137f28b04358baadbc4bffaf8
 <h2><?= esc($title) ?></h2>
 
 <?= session()->getFlashdata('error') ?>

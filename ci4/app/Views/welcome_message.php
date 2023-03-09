@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CodeIgniter 4!</title>
+    <title>OKUR0BOXUNE</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">	
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico">
 
     <!-- STYLES -->
 
@@ -208,7 +208,7 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>
-            <li class="menu-item hidden"><a href="#">Home</a></li>
+            <li class="menu-item hidden"><a href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home">Home</a></li>
             <li class="menu-item hidden"><a href="https://codeigniter4.github.io/userguide/" target="_blank">Docs</a>
             </li>
             <li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
@@ -220,9 +220,9 @@
 
     <div class="heroe">
 
-        <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+        <h1>Welcome to ObfuscousX' CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?>!</h1>
 
-        <h2>The small framework with powerful features</h2>
+        <h2><strong>Click on this photo to view website:</strong> <a href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home"><img src="assets/img/0bfuscousXLogo.png" alt="ØB"></a></h2>
 
     </div>
 
