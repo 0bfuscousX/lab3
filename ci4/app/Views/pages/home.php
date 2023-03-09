@@ -299,7 +299,7 @@
             <h2>Leave your thoughts about my website? <PHP Form Validation></h2>
             <p><i> Please input your information for logging and documentation: <i></p>
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-              Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+              Comment:  <textarea name="comment " rows="5" cols="40"></textarea>
               <br><br>
               <br><br>
               <input type="submit" name="submit" value="Submit">  
@@ -307,7 +307,7 @@
 
             <?php
             echo "<h2>Your Input:</h2>";
-            echo $comment;
+            echo $comment ;
             ?>
             </div>	
 
