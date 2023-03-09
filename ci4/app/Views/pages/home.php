@@ -274,10 +274,6 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
-<<<<<<< HEAD
-                <input type="submit" value="Send Request">
-              </form>
-=======
 
                 <!--PHP-->
   	        <?php
@@ -344,7 +340,6 @@
                 
                 <input type="submit" value="Send Request">
               </form> 
->>>>>>> 9b066902b0d2fc5137f28b04358baadbc4bffaf8
             </div>
           </li>
         </ul>
