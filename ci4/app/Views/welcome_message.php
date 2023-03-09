@@ -222,7 +222,7 @@
 
         <h1>Welcome to ObfuscousX' CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?>!</h1>
 
-        <h2><strong>Click on this photo to view website:</strong> <a class="logo" href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home"><img src="assets/img/0bfuscousXLogo.png" alt="ØB"></a></h2>
+        <h2><strong>Click on this photo to view website:</strong> <a href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home"><img src="assets/img/0bfuscousXLogo.png" alt="ØB"></a></h2>
 
     </div>
 
