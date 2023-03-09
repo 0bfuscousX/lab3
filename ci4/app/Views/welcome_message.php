@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>OKUR0BOXUNE</title>
-    <link rel="icon" type="image/x-icon" href="public/favicon.ico">	
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">	
 
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -210,7 +210,7 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>
-            <li class="menu-item hidden"><a href="#">Home</a></li>
+            <li class="menu-item hidden"><a href="http://apcwebprog.csf.ph/~lvlim/lab3/ci4/public/home">Home</a></li>
             <li class="menu-item hidden"><a href="https://codeigniter4.github.io/userguide/" target="_blank">Docs</a>
             </li>
             <li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
