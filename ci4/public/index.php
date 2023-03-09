@@ -66,7 +66,6 @@ $app->setContext($context);
  */
 
 $app->run();
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
